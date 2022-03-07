@@ -30,4 +30,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'github' => [
+        'base_url' => env('GITHUB_BASE_URL', 'https://api.github.com')
+    ]
 ];
