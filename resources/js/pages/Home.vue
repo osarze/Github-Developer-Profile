@@ -54,6 +54,7 @@
                                         class="rounded-full bg-red-500 text-red-50 py-1 px-2 text-xs font-bold ml-1"
                                         v-for="(repositories, name) in developer.repositories"
                                         :key="name"
+                                        v-if="name"
                                     >
                                         {{ name }}
 <!--                                        {{ repositories.length }}-->
